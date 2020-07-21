@@ -145,7 +145,8 @@ export default class Swipeable extends PureComponent {
     swipeReleaseAnimationConfig: {
       toValue: {x: 0, y: 0},
       duration: 250,
-      easing: Easing.elastic(0.5)
+      easing: Easing.elastic(0.5),
+      useNativeDriver: true 
     },
 
     // misc
